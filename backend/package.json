@@ -1,0 +1,20 @@
+{
+  "name": "RID164504_Desafio05-api",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de livros de uma biblioteca online — Desafio 05 RID164504",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": ["biblioteca", "api", "rest", "express", "nodejs"],
+  "author": "RID164504",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^13.0.0"
+  }
+}
