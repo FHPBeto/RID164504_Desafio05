@@ -1,12 +1,12 @@
-# RID164504_Desafio05 — Biblioteca Online
+   RID164504_Desafio05 — Biblioteca Online
 
 Sistema de gerenciamento de biblioteca online desenvolvido com **Node.js/Express** no back-end e **React + Vite** no front-end, com integração completa via API REST.
 
-> **Aluno:** RID164504 | **Desafio:** 05 — DNC School
+> Aluno: RID164504 | Desafio: 05 — DNC School
 
 ---
 
-## 🗂️ Estrutura do Projeto
+ Estrutura do Projeto
 
 ```
 biblioteca-online/
@@ -33,21 +33,21 @@ biblioteca-online/
 
 ---
 
-## 🚀 Como Executar
+   Como Executar
 
-### Pré-requisitos
+   Pré-requisitos
 
 - Node.js v18+ instalado
 - npm v9+ instalado
 
-### 1. Clonar o repositório
+   1. Clonar o repositório
 
 ```bash
 git clone <url-do-repositorio>
 cd biblioteca-online
 ```
 
-### 2. Iniciar o Back-end (API)
+   2. Iniciar o Back-end (API)
 
 ```bash
 cd backend
@@ -59,7 +59,7 @@ A API estará disponível em: `http://localhost:3000`
 
 Documentação Swagger: `http://localhost:3000/api-docs`
 
-### 3. Iniciar o Front-end (React)
+   3. Iniciar o Front-end (React)
 
 Em outro terminal:
 
@@ -73,7 +73,7 @@ O front-end estará disponível em: `http://localhost:5173`
 
 ---
 
-## 🔌 Rotas da API
+   Rotas da API
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
@@ -83,7 +83,7 @@ O front-end estará disponível em: `http://localhost:5173`
 | `PUT` | `/livros/:id` | Atualiza um livro existente |
 | `DELETE` | `/livros/:id` | Remove um livro |
 
-### Estrutura do Livro
+   Estrutura do Livro
 
 ```json
 {
@@ -95,57 +95,57 @@ O front-end estará disponível em: `http://localhost:5173`
 }
 ```
 
-### Exemplos de Requisição
+   Exemplos de Requisição
 
-**Listar todos os livros:**
+  Listar todos os livros:
 ```bash
 curl http://localhost:3000/livros
 ```
 
-**Buscar livro por ID:**
+Buscar livro por ID:
 ```bash
 curl http://localhost:3000/livros/1
 ```
 
-**Cadastrar novo livro:**
+Cadastrar novo livro:
 ```bash
 curl -X POST http://localhost:3000/livros \
   -H "Content-Type: application/json" \
   -d '{"id":4,"titulo":"Design Patterns","num_paginas":395,"isbn":"978-0201633610","editora":"Addison-Wesley"}'
 ```
 
-**Atualizar livro:**
+Atualizar livro:
 ```bash
 curl -X PUT http://localhost:3000/livros/4 \
   -H "Content-Type: application/json" \
   -d '{"titulo":"Design Patterns - GoF","num_paginas":395,"isbn":"978-0201633610","editora":"Addison-Wesley"}'
 ```
 
-**Deletar livro:**
+Deletar livro:
 ```bash
 curl -X DELETE http://localhost:3000/livros/4
 ```
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+   Tecnologias Utilizadas
 
-### Back-end
-- **Node.js** — Runtime JavaScript
-- **Express** — Framework web minimalista
-- **CORS** — Middleware para Cross-Origin Resource Sharing
-- **Swagger UI + JSDoc** — Documentação interativa da API
+   Back-end
+- Node.js — Runtime JavaScript
+- Express — Framework web minimalista
+-  CORS — Middleware para Cross-Origin Resource Sharing
+- Swagger UI + JSDoc — Documentação interativa da API
 
-### Front-end
-- **React 18** — Biblioteca de interface de usuário
-- **Vite** — Build tool e servidor de desenvolvimento
-- **React Router DOM** — Roteamento client-side
-- **Axios** — Cliente HTTP para consumo da API
-- **Sass** — Pré-processador CSS
+   Front-end
+- React 18 — Biblioteca de interface de usuário
+- Vite — Build tool e servidor de desenvolvimento
+- React Router DOM — Roteamento client-side
+- Axios — Cliente HTTP para consumo da API
+- Sass — Pré-processador CSS
 
 ---
 
-## 📋 Critérios do Desafio
+   Critérios do Desafio
 
 | Critério | Status |
 |----------|--------|
@@ -159,7 +159,7 @@ curl -X DELETE http://localhost:3000/livros/4
 
 ---
 
-## 📖 Documentação Interativa (Swagger)
+   Documentação Interativa (Swagger)
 
 Após iniciar o back-end, acesse a documentação interativa em:
 
@@ -171,8 +171,9 @@ A documentação Swagger permite testar todas as rotas diretamente pelo navegado
 
 ---
 
-## 👤 Autor
+    Autor
+    humberto engesoftware
 
-Desenvolvido como parte do **Desafio 05 — DNC School**.
+Desenvolvido como parte do Desafio 05 — DNC School.
 
 **RID:** 164504
